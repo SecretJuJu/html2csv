@@ -35,4 +35,6 @@ class Converter:
                 csv_writer.writerow(row)
             table_attrs = dict(num=table_num)
             output.append((csv_string.getvalue(), table_attrs))
+#        print("---- output ----")
+#        print(output)
         return output
