@@ -58,3 +58,9 @@ optional arguments:
 ## Author and Contact
 
 Wentao Han (wentao.han@gmail.com)
+
+
+# CUSTOM Things 
+	만약 한개의 html에 여러개의 table이 있다면
+	output-1.csv, output-2.csv
+	위와같은 포맷으로 여러개의 csv를 만든다.
