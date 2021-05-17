@@ -50,9 +50,7 @@ def main():
                 response = requests.get(input_source)
                 html_doc = response.text
         output = converter.convert(html_doc)
-        if (len(output) == 1):
-            makeCsvFile(args.output)
-            return
+        
         i=1
         for csv_string, _ in output:
 #           args.output
